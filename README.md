@@ -6,4 +6,4 @@ Trong khoá học này các bạn sẽ được tìm hiểu các sử dụng HTM
 
 
   [1]: https://www.codehub.vn
-  [2]: https://i.imgur.com/rGxU4H8.png
+  [2]: https://i.imgur.com/vHWdnZR.png
