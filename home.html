@@ -3,8 +3,8 @@
 <head>
 	<title>Trang Chủ</title>
 	<meta charset="utf-8">
-	<link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=vietnamese" rel="stylesheet">
-	<link rel="stylesheet" href="./stylesheets/main.css">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=vietnamese" rel="stylesheet"> -->
+	<link rel="stylesheet" href="./stylesheets/style.css">
 </head>
 <body>
 	<!-- menu -->
@@ -33,10 +33,21 @@
 		<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.codehub.vn&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId=1716503328561474" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 	</div>
 
+	<!-- Lightbox -->
+	<div id="lightbox">
+
+	  <!-- nút đóng lightbox -->
+	  <span id="close-icon">&times;</span>
+
+	  <!-- ảnh sẽ hiển thị -->
+	  <img id="image-placeholder">
+	</div>
+
 	<div id="footer">
 		<div class="container">
 			<p>CodeHub.vn &copy; 2018</p>
 		</div>
 	</div>
+	<script type="text/javascript" src="./javascripts/script.js"></script>
 </body>
 </html>
